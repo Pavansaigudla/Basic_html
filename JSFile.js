@@ -25,7 +25,9 @@ function login(form) {
                 "name": "International Business Machine",
                
             });
-        window.location = "https://github.com/Pavansaigudla/Basic_html";
+            alert("Valid User");
+
+        window.location = "home.html";
     }
     else {
         alert("Please Enter Valid Details");
