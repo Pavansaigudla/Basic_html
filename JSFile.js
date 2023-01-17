@@ -18,7 +18,7 @@ function login(form) {
             {
                 //User Fields
                 "id": "usrid", // Required for logged in app users
-                "email": InputElement.value,
+                "email": mailusername.value,
             },
             {
                 //Account Fields
