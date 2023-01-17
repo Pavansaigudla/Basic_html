@@ -33,3 +33,6 @@ function login(form) {
     }
 
 }
+function login(){
+    window.location="https://pavansaigudla.github.io/Basic_html/loginpage.html";
+}
