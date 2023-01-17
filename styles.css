@@ -1,0 +1,132 @@
+/*******LOGIN Page****/
+.container{
+    width:800px;
+    margin:0 auto;
+    background:whitesmoke;
+}
+
+.login-header{
+    text-align: center;
+    border:2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#header-head{
+    color:#869843;
+    font-weight: normal;
+    font-size: 24px;
+}
+#header-desc{
+    font-size: 17px;
+    color: #3b7687;
+}
+.nav-bar{
+    background-color: #3b7687;
+    height:30px;
+}
+.form{
+    text-align: center;
+    padding: 15px 10px 10px 10px;
+}
+#login-page-form{
+    width: 800px;
+    background-color: whitesmoke;
+}
+.form-text{
+    font-size: 22px;
+}
+.footer{
+    background-color: #3b7687;
+    text-align: center;
+    color: wheat;
+    height:20px;
+}
+.footer-span{
+    color:black;
+}
+/**********Home Page**********/
+.home-header{
+    border:2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#869843
+}
+.nav-bar a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.home-p{
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.home-button{
+    padding-left: 150px;
+    
+}
+.button-style-home{
+    background-color: #3b7687;
+    color: white;
+    border-radius: 3px;
+    border:0px;
+    height:20px;
+    text-decoration: none;
+}
+
+/**********About Page************/
+.about-article{
+    color: #444444;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+}
+#Aboutimg{
+    width :340px;
+    height:150px;
+    float: left;
+    padding-left: 160px;
+}
+.player-style{
+    float: right;
+    padding-right: 80px;
+}
+.about-desc{
+    clear: both;
+}
+.aside-class{
+    color:#869843;
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.h2-class{
+    color:#869843;
+    font-size: 18px;
+}
+
+/*********Contact Page***********/
+.input-class{
+    border-radius: 5px;
+    height: 15px;
+}
+#form{
+    width:500px; 
+    margin: 0 auto;
+    
+    border-radius: 5px;
+}
+#message{
+    width: 80%;
+    border-radius: 5px;
+}
+.form-style{
+    margin: 0 0 0 150px;
+    padding: 25px 40px 30px 0;
+    
+    margin-right: 20px;
+    margin-bottom: 15px;
+}

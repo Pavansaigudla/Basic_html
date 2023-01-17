@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Widget_page</title>
+        <style>
+            #draggablered { width: 150px; height: 150px; padding: 0.5em; }
+            #draggableblue { width: 150px; height: 150px; padding: 0.5em; }
+            #draggablegreen { width: 150px; height: 150px; padding: 0.5em; }
+            </style>
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+            <script>
+            $( function() {
+              $( "#draggablered" ).draggable();
+            } );
+            $( function() {
+              $( "#draggableblue" ).draggable();
+            } );
+            $( function() {
+              $( "#draggablegreen" ).draggable();
+            } );
+            </script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="home-header" style="padding-left: 10px;">
+                <h1>Website Page</h1>
+            </header>
+            <nav class="nav-bar" >
+                &nbsp;&nbsp;
+                <a href="Home.html">Home </a>&nbsp;&nbsp;&nbsp;
+                <a href="AboutUs.html">About Us </a>&nbsp;&nbsp;&nbsp;
+                <a href="Contact.html">Contact </a>&nbsp;&nbsp;&nbsp;
+                <a href="Widget.html">Widget </a>&nbsp;&nbsp;&nbsp;
+                <a href="loginpage.html">Logout </a>&nbsp;&nbsp;&nbsp;
+            </nav>
+            <div>
+                <div id="draggablered" class="ui-widget-content" style="background-color:red;color:white">
+                    <p>Drag me Here -- For Red Color</p>
+                  </div>
+                   <div id="draggableblue" class="ui-widget-content" style="background-color:blue;color:white">
+                    <p>Drag me Here -- For blue Color</p>
+                    
+                  </div>
+                   <div id="draggablegreen" class="ui-widget-content" style="background-color:green;color:white">
+                    <p>Drag me Here -- For Green Color</p>
+                  </div>
+
+            </div>
+
+        <footer class="footer">
+            &copy; 2023 Basic Website &nbsp; <span class="footer-span"> |</span> Designed by Pavansai Gudla
+        </footer>
+    </div>
+</body>
+</html>
