@@ -26,8 +26,7 @@ function login(form) {
                
             });
             alert("Valid User");
-
-        window.location = "home.html";
+            window.location = "home.html";
     }
     else {
         alert("Please Enter Valid Details");
