@@ -12,21 +12,23 @@ function login(form) {
     let mailusername = document.getElementById("mailusername");
     if ((mailusername.value == "demouser@gmail.com") || (mailusername.value == "abc@gmail.com") || (mailusername.value == "admin@gmail.com")) {
         alert("Entered details are valid ");
+        var usrid= (InputElement.value).substr(7,5) 
         //passing user and account objects:
         aptrinsic("identify",
             {
                 //User Fields
-                "id": "GS2556", // Required for logged in app users
-                "email": "userEmail@address.com",
+                "id": "usrid", // Required for logged in app users
+                "email": InputElement.value,
             },
             {
                 //Account Fields
-                "id": "IBM", //Required
+                "id": "GS2556", //Required
                 "name": "International Business Machine",
                
             });
             alert("Entered details are valid ");
-        window.location = "Home.html";
+            form.action="Home.html"
+        //window.location = "Home.html";
     }
     else {
         alert("Please Enter Valid Details");
