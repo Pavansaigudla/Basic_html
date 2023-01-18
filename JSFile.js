@@ -12,7 +12,7 @@ function login(form) {
     let mailusername = document.getElementById("mailusername");
     if ((mailusername.value == "demouser@gmail.com") || (mailusername.value == "abc@gmail.com") || (mailusername.value == "admin@gmail.com")) {
         //passing user and account objects:
-        var usrid = (mailusername.value).substr(8,5);
+        var usrid = (mailusername.value).substr(7,5);
         alert("Entered details are valid");
         aptrinsic("identify",
             {
@@ -20,6 +20,7 @@ function login(form) {
                 //User Fields
                 "id": "usrid",// Required for logged in app users
                 "email" : "userEmail@address.com",
+                
             },
             {
                 //Account Fields
