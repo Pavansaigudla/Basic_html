@@ -20,7 +20,7 @@ function login(form) {
                 //User Fields
                 "id": "usrid",// Required for logged in app users
                 "email" : "userEmail@address.com",
-                
+
             },
             {
                 //Account Fields
@@ -29,7 +29,7 @@ function login(form) {
                
             });
             alert("Valid User");
-            window.location = "home.html";
+            window.location = "Home.html";
     }
     else {
         alert("Please Enter Valid Details");
