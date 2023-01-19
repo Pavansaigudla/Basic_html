@@ -16,13 +16,13 @@
             <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
             <script>
             $( function() {
-              $( "#draggablered" ).draggable();
+              $( "#draggablered" ).draggable({stop : function r() {aptrinsic('track','dragColor',{"name":"red drag", "count" : 30});}});
             } );
             $( function() {
-              $( "#draggableblue" ).draggable();
+              $( "#draggableblue" ).draggable({stop : function r() {aptrinsic('track','dragColor',{"name":"blue drag", "count" : 60});}});
             } );
             $( function() {
-              $( "#draggablegreen" ).draggable();
+              $( "#draggablegreen" ).draggable({stop : function r() {aptrinsic('track','dragColor',{"name":"green drag", "count" : 70});}});
             } );
             </script>
     </head>
@@ -41,6 +41,7 @@
             </nav>
             <div>
                 <div id="draggablered" class="ui-widget-content" style="background-color:red;color:white">
+
                     <p>Drag me Here -- For Red Color</p>
                   </div>
                    <div id="draggableblue" class="ui-widget-content" style="background-color:blue;color:white">
