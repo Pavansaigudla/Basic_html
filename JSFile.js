@@ -46,7 +46,7 @@ function paynow(){
     let Output= Result.value
     document.querySelector(".res1").textContent = Amount.value
     document.querySelector(".result").textContent = Output
-    aptrinsic('track','transaction',{"status":Output, "Amount" :Amount.value});
+    aptrinsic('track','transaction',{"status":Output, "Value" :Amount.value});
     alert("Transaction Done");
 }
 
