@@ -39,3 +39,11 @@ function login(form) {
 //function login(){
     //window.location="https://pavansaigudla.github.io/Basic_html/loginpage.html";
 //}
+
+var txt1=document.getElementById('inpamt');
+var btn1=document.getElementById('btn1');
+var out1=document.getElementById('op1');
+function pay(){
+    out1.innerHTML=txt1.value +"Of amount was succesfully completed the  transaction";
+}
+btn1.addEventListener('click',pay);
