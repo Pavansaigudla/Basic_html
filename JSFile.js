@@ -46,7 +46,7 @@ function paynow(){
     console.log(typeof transactionAmount);
     let Result= document.querySelector("#type");
     let Output= Result.value
-    document.querySelector(".res1").textContent = Amount.value
+    document.querySelector(".res1").textContent = transactionAmount
     document.querySelector(".result").textContent = Output
     aptrinsic('track','transaction',{"status":Output, "transactionAmount" :transactionAmount});
     alert("Transaction Done");
