@@ -41,12 +41,12 @@ function login(form) {
 //}
 
 function paynow(){
-    let Amount = document.getElementById("inpamt");
+    var Amount = document.getElementById("inpamt");
     let Result= document.querySelector("#type");
     let Output= Result.value
     document.querySelector(".res1").textContent = Amount.value
     document.querySelector(".result").textContent = Output
-    aptrinsic('track','transaction',{"status":Output, "AmountValue" :Amount.value});
+    aptrinsic('track','transaction',{"status":Output, "Amount" :Amount.value});
     alert("Transaction Done");
 }
 
