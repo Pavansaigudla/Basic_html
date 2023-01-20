@@ -31,16 +31,16 @@
                     </p>
                     <p>
                         <label for = "Transaction"> Transaction type:</label>
-                    <select>
+                    <select id="type">
                         <option value="">--select--</option>
                        <option id="success" value="success">success</option>
                           <option id="fail" value="Failure">Failure</option>
                     </select>
                     </p>
                     <p>
-                    <input type="button" class="pay-btn" id="btn1" value="Paynow">
+                    <input type="button" class="pay-btn" id="btn1" value="Paynow" onclick="paynow()">
                     </p>
-                    
+                    <p id="Output"> Transaction of <span class="res1"></span> is <span class="result"></span></p>
                 </div>
             </div>
             <footer class="footer">
