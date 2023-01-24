@@ -10,7 +10,7 @@
 
 function login(form) {
     let mailusername = document.getElementById("mailusername");
-    if ((mailusername.value == "demouser@gmail.com") || (mailusername.value == "abc@gmail.com") || (mailusername.value == "admin@gmail.com")|| (mailusername.value == "pgudla@gmail.com")|| (mailusername.value == "gudla@gmail.com")) {
+    if ((mailusername.value == "demouser@gmail.com") || (mailusername.value == "abc@gmail.com") || (mailusername.value == "admin@gmail.com")|| (mailusername.value == "pgudla@gmail.com")|| (mailusername.value == "gudla@gmail.com")||(mailusername.value == "gudla1@gmail.com")) {
         //passing user and account objects:
         var usrid = (mailusername.value).substr(7,5);
         alert("Entered details are valid");
