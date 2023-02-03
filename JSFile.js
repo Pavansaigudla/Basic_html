@@ -16,33 +16,38 @@
 
 
 function login(form) {
-    let mailusername = document.getElementById("mailusername");
-    if ((mailusername.value == "demouser1@gmail.com") || (mailusername.value == "abc@gmail.com") || (mailusername.value == "admin@gmail.com")|| (mailusername.value == "pgudla@gmail.com")|| (mailusername.value == "gudla@gmail.com")||(mailusername.value == "gudla2@gmail.com")||(mailusername.value == "gudla4@gmail.com")) {
+    let a = document.getElementById("mailusername").value;
+    var b ="";
+    if (a ==="admin@gmail.com" || a === "demouser@gmail.com" || a === "pgudla@gmail.com") {
+        b= a.substr(7,5);
+        var id = b;
+
         //passing user and account objects:
-        var usrid = (mailusername.value).substr(7,5);
-        alert("Entered details are valid");
         aptrinsic("identify",
             {
-                
                 //User Fields
-                "id": usrid,// Required for logged in app users
-                "email" :mailusername.value,
-
+                "id": id, // Required for logged in app users
+                "email": a,
+                "userrole": "Admin"
+            
             },
             {
                 //Account Fields
-                "id": "IBM", //Required
-                "name": "International Business Machine",
-               
+                "id": "GSID-12345", //Required
+                "name": "International Business Machine"
             });
-            alert("Valid User");
-            window.location = "Home.html";
+           alert("Valid User");
+            form.action = "Home.html";
+           alert("Logged in user id :"+b);
+        
     }
     else {
-        alert("Please Enter Valid Details");
+        alert("Please enter a valid username");
     }
-
+    return b;
 }
+    
+
 //function login(){
     //window.location="https://pavansaigudla.github.io/Basic_html/loginpage.html";
 //}
