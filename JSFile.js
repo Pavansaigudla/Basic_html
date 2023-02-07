@@ -18,7 +18,7 @@
 function login(form) {
     let a = document.getElementById("mailusername").value;
     var b ="";
-    if (a ==="admin@gmail.com" || a === "demouser@gmail.com" || a === "pgudla@gmail.com") {
+    if (a ==="admin@gmail.com" || a === "demouser@gmail.com" || a === "pgudla@gmail.com" || a === "gudla@gmail.com") {
         b= a.substr(7,5);
         var id = b;
 
