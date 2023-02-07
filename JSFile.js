@@ -37,7 +37,7 @@ function login(form) {
                 "name": "International Business Machine"
             });
            alert("Valid User");
-            form.action = "Home.html";
+            window.location = "Home.html";
            alert("Logged in user id :"+b);
         
     }
