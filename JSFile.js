@@ -22,7 +22,7 @@ function login(form) {
         b= a.substr(7,5);
         var id = b;
 
-        //passing user and account objects:
+        
         aptrinsic("identify",
             {
                 //User Fields
