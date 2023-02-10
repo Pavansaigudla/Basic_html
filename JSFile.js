@@ -28,7 +28,8 @@ function login(form) {
                 //User Fields
                 "id": id, // Required for logged in app users
                 "email": a,
-                "userrole": "Admin"
+                "userrole": "Admin",
+                "date":"10/02/2023"
             
             },
             {
