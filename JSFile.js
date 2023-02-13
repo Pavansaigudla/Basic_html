@@ -26,7 +26,7 @@ function login(form) {
         aptrinsic("identify",
             {
                 //User Fields
-                "id": id, // Required for logged in app users
+                "id": id, 
                 "email": a,
                 "userrole": "Admin",
                 
