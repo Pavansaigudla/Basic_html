@@ -29,8 +29,6 @@ function login(form) {
                 "id": id, 
                 "email": a,
                 "userrole": "Admin",
-                
-            
             },
             {
                 //Account Fields
