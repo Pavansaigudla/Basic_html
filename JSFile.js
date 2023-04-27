@@ -84,7 +84,3 @@ function paynow(){
     aptrinsic('track','transaction',{"TransactionStatus":Output, "transactionAmount" :transactionAmount});
     alert("Transaction Done");
 }
-function set_attribute(){
-aptrinsic('set', 'user', {'firstName' : 'Eladtest', 'lastName' : 'Cohen', 'role': 'Software Engineer'});
-aptrinsic('track', 'Set_Test_Check', {'firstName' : 'Eladtest', 'lastName' : 'Cohen', 'role': 'Software Engineer'});
-}
