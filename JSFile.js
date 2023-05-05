@@ -39,7 +39,7 @@ window['_fs_namespace'] = 'FS';
 function login(form) {
     let a = document.getElementById("mailusername").value;
     var b ="";
-    if (a ==="admin@gmail.com" || a ==="admin123@gmail.com" || a === "demouser@gmail.com" || a === "pgudla@gmail.com" || a === "gudla@gmail.com" || a === "gudla1@gmail.com") {
+    if (a ==="admin@gmail.com" || a ==="admin123@gmail.com" || a ==="pavansaigudla.7@gmail.com" || a === "demouser@gmail.com" || a === "pgudla@gmail.com" || a === "gudla@gmail.com" || a === "gudla1@gmail.com") {
         b= a.substr(7,5);
         var id = b;
 
