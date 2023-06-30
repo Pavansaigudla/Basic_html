@@ -68,7 +68,6 @@ function login(form) {
     return b;
 }
     
-
 //function login(){
     //window.location="https://pavansaigudla.github.io/Basic_html/loginpage.html";
 //}
