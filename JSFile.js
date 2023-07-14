@@ -72,6 +72,12 @@ function login(form) {
     //window.location="https://pavansaigudla.github.io/Basic_html/loginpage.html";
 //}
 
+function deleteAllCookies() {
+  console.log(“deleting cookies...“);
+  aptrinsic(‘reset’);
+  // counter = 0;
+}
+
 function paynow(){
     var Amount = document.getElementById("inpamt").value;
     var transactionAmount = Number(Amount);
