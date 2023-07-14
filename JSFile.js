@@ -73,7 +73,7 @@ function login(form) {
 //}
 
 function deleteAllCookies() {
-  console.log(“deleting cookies...“);
+  console.log("deleting cookies...");
   aptrinsic(‘reset’);
   // counter = 0;
 }
