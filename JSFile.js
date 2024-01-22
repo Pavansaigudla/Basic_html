@@ -1,3 +1,17 @@
+var config={kcAllowedFuncNames:["zendeskchat"]};
+function zendeskchat () {
+
+var head document.getElementsByTagName('head')[0];
+var script = document.createElement('script');
+script.id = "ze-snippet";
+script.src="https://static.zdassets.com/ekr/snippet.js?key=71664cab-93af-4dac-a95e-c779f43b72aa"
+script.onreadystatechange = handler1;
+script.onload = handler1;
+head.appendChild(script);
+function handler1(){
+}
+console.log("chatbot added");
+}
 
 (function (n, t, a, e, co) {
     var i = "aptrinsic"; n[i] = n[i] || function () {
