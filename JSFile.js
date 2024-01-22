@@ -38,7 +38,7 @@ window['_fs_namespace'] = 'FS';
 var config={kcAllowedFuncNames:["zendeskchat"]};
 function zendeskchat () {
 
-var head document.getElementsByTagName('script')[0];
+var head = document.getElementsByTagName('script')[0];
 var script = document.createElement('script');
 script.id = "ze-snippet";
 script.src="https://static.zdassets.com/ekr/snippet.js?key=71664cab-93af-4dac-a95e-c779f43b72aa"
