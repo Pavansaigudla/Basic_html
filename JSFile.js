@@ -120,3 +120,7 @@ aptrinsic('set', 'globalContext', {"page":"Payment","id":"pg4"});
 function widpg(){
 aptrinsic('set', 'globalContext', {"page":"Widget","id":"pg5"});
 }
+
+function clkhre(){
+aptrinsic('set', 'globalContext', {"page":"home","Version":3.0});
+}
