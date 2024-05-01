@@ -104,3 +104,7 @@ function paynow(){
     aptrinsic('track','transaction',{"TransactionStatus":Output, "transactionAmount" :transactionAmount});
     alert("Transaction Done");
 }
+
+function pgload(){
+aptrinsic('set', 'globalContext', {"version":1234,"id":"abc1234"});
+}
