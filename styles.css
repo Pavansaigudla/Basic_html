@@ -75,14 +75,7 @@
     height:20px;
     text-decoration: none;
 }
-.btn-style-home{
-    background-color: #FF0000;
-    color: white;
-    border-radius: 3px;
-    border:0px;
-    height:20px;
-    text-decoration: none;
-}
+
 /**********About Page************/
 .about-article{
     color: #444444;
