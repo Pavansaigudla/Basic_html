@@ -105,6 +105,18 @@ function paynow(){
     alert("Transaction Done");
 }
 
-function pgload(){
-aptrinsic('set', 'globalContext', {"version":1234,"id":"abc1234"});
+function hmpg(){
+aptrinsic('set', 'globalContext', {"page":"home","id":"pg1"});
+}
+function aspg(){
+aptrinsic('set', 'globalContext', {"page":"AboutUS","id":"pg2"});
+}
+function conpg(){
+aptrinsic('set', 'globalContext', {"page":"Contact","id":"pg3"});
+}
+function paypg(){
+aptrinsic('set', 'globalContext', {"page":"Payment","id":"pg4"});
+}
+function widpg(){
+aptrinsic('set', 'globalContext', {"page":"Widget","id":"pg5"});
 }
