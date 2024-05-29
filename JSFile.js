@@ -50,7 +50,7 @@ function handler1(){
 console.log("chatbot added");
 }
 
-aptrinsic('bot', 'search', {labels: ['px']});
+
 
 function login(form) {
     let a = document.getElementById("mailusername").value;
@@ -82,7 +82,8 @@ function login(form) {
     }
     return b;
 }
-    
+
+aptrinsic('bot', 'search', {labels: ['px']});
 //function login(){
     //window.location="https://pavansaigudla.github.io/Basic_html/loginpage.html";
 //}
