@@ -83,7 +83,6 @@ function login(form) {
     return b;
 }
 
-aptrinsic('bot', 'search', {labels: ['px']});
 //function login(){
     //window.location="https://pavansaigudla.github.io/Basic_html/loginpage.html";
 //}
@@ -109,18 +108,28 @@ function paynow(){
 
 function hmpg(){
 aptrinsic('set', 'globalContext', {"page":"home","id":"pg1"});
+    
+aptrinsic('bot', 'search', {labels: ['px']});
 }
 function aspg(){
 aptrinsic('set', 'globalContext', {"page":"AboutUS","id":"pg2"});
+    
+aptrinsic('bot', 'search', {labels: ['px']});
 }
 function conpg(){
 aptrinsic('set', 'globalContext', {"page":"Contact","id":"pg3"});
+    
+aptrinsic('bot', 'search', {labels: ['px']});
 }
 function paypg(){
 aptrinsic('set', 'globalContext', {"page":"Payment","id":"pg4"});
+    
+aptrinsic('bot', 'search', {labels: ['px']});
 }
 function widpg(){
 aptrinsic('set', 'globalContext', {"page":"Widget","id":"pg5"});
+    
+aptrinsic('bot', 'search', {labels: ['px']});
 }
 
 function clkhre(){
