@@ -111,6 +111,7 @@ let Gender= document.querySelector("#gentype");
 let op=Gender.value
 document.querySelector(".genres").textContent = op
 aptrinsic('track','gender',{"Gender":op});
+alert("Gender selected....");
 }
 
 function hmpg(){
