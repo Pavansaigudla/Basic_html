@@ -106,6 +106,13 @@ function paynow(){
     alert("Transaction Done");
 }
 
+function gender(){
+let Gender= document.querySelector("#gentype");
+let op=Gender.value
+document.querySelector(".genres").textContent = op
+aptrinsic('track','gender',{"Gender":op});
+}
+
 function hmpg(){
 aptrinsic('set', 'globalContext', {"page":"home","id":"pg1"});
     
