@@ -109,7 +109,6 @@ function paynow(){
 function gender(){
 let Gender= document.querySelector("#gentype");
 let Op=Gender.value
-document.querySelector(".genres").textContent = Op
 aptrinsic('track','gender',{"Gender":Op});
 alert("Gender selected....");
 }
