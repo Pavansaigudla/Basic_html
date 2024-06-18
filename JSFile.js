@@ -55,7 +55,7 @@ console.log("chatbot added");
 function login(form) {
     let a = document.getElementById("mailusername").value;
     var b ="";
-    if (a ==="admin@gmail.com" || a ==="admin1234@gmail.com" || a === "demouser@gmail.com" || a === "pgudla@gmail.com" || a === "gudla@gmail.com" || a === "gudla1@gmail.com" || a === "gudlasai@gmail.com") {
+    if (a ==="admin@gmail.com" || a ==="admin1234@gmail.com" || a === "demouser@gmail.com" || a === "pgudla@gmail.com" || a === "gudla@gmail.com" || a === "gudla1@gmail.com" || a === "gudlasai@gmail.com" || a === "hemanth@demo1.com") {
         b= a.substr(7,5);
         var id = b;
 
