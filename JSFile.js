@@ -117,18 +117,19 @@ function clkhre(){
 aptrinsic('set', 'globalContext', {"page":"home","Version":3.0});
 }
 
-function handleToggleChange(element) {
-  var isChecked = element.checked;
-  
-  // Update the toggle state in the HTML (e.g., change text from OFF to ON or vice versa)
-  var stateText = document.getElementById('toggleState');
-  if (isChecked) {
-    stateText.textContent = "ON";
-    console.log("The toggle is now ON.");
-    // Add any further action when the toggle is ON, such as API call or state change
-  } else {
-    stateText.textContent = "OFF";
-    console.log("The toggle is now OFF.");
-    // Add any further action when the toggle is OFF
-  }
-}
+  // JavaScript to detect the toggle change
+  const toggleButton = document.getElementById('toggleButton');
+
+  toggleButton.addEventListener('change', function() {
+    if (this.checked) {
+      // When the toggle is ON
+      this.setAttribute('aria-checked', 'true');
+      // You can trigger other actions here, like sending an API request, updating UI, etc.
+      console.log('Toggle is ON');
+    } else {
+      // When the toggle is OFF
+      this.setAttribute('aria-checked', 'false');
+      console.log('Toggle is OFF');
+    }
+  });
+</script>
