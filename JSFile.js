@@ -8,7 +8,6 @@
 })(window, document, "https://web-sdk.aptrinsic.com/api/aptrinsic.js", "AP-OM2DTW6NF8A7-2"); 
 
 
-
 var config={kcAllowedFuncNames:["zendeskchat"]};
 function zendeskchat () {
 
