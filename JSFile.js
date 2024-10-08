@@ -132,4 +132,4 @@ aptrinsic('set', 'globalContext', {"page":"home","Version":3.0});
       console.log('Toggle is OFF');
     }
   });
-</script>
+
