@@ -158,6 +158,13 @@
   height: 34px;
 }
 
+.cxone-slide-toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
 .cxone-slide-toggle input {
   opacity: 0;
   width: 0;
@@ -195,3 +202,4 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px); /* Moves the slider to the right */
 }
+
