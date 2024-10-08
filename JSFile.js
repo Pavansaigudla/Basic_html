@@ -116,3 +116,19 @@ aptrinsic('bot', 'search', {labels: ['px']});
 function clkhre(){
 aptrinsic('set', 'globalContext', {"page":"home","Version":3.0});
 }
+
+function handleToggleChange(element) {
+  var isChecked = element.checked;
+  
+  // Update the toggle state in the HTML (e.g., change text from OFF to ON or vice versa)
+  var stateText = document.getElementById('toggleState');
+  if (isChecked) {
+    stateText.textContent = "ON";
+    console.log("The toggle is now ON.");
+    // Add any further action when the toggle is ON, such as API call or state change
+  } else {
+    stateText.textContent = "OFF";
+    console.log("The toggle is now OFF.");
+    // Add any further action when the toggle is OFF
+  }
+}
